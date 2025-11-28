@@ -1,0 +1,3 @@
+// Erro: A variável 'y' não foi declarada antes de ser usada
+x = 10
+z = x + y

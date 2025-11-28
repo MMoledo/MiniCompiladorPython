@@ -1,0 +1,2 @@
+// Erro: Dois operadores juntos
+y = 10 + * 5

@@ -1,0 +1,17 @@
+/*
+  Arquivo de teste completo e válido.
+  Calcula a hipotenusa de um triângulo retângulo.
+*/
+
+// Função para elevar um número ao quadrado
+funcao quadrado(n) = n ^ 2
+
+// Função principal que usa a função 'quadrado'
+funcao hipotenusa(cateto_a, cateto_b) = (quadrado(cateto_a) + quadrado(cateto_b)) ^ 0.5
+
+// Declaração das variáveis
+a = 3
+b = 4
+
+// Chamada da função principal e armazenamento do resultado
+resultado = hipotenusa(a, b)

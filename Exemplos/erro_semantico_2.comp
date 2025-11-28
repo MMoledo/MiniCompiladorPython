@@ -1,0 +1,4 @@
+funcao soma(a, b) = a + b
+
+// Erro: A função 'soma' espera 2 argumentos, mas está recebendo 3
+resultado = soma(10, 5, 2)

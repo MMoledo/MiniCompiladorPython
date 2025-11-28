@@ -1,0 +1,4 @@
+funcao minha_funcao() = 1
+
+// Erro: Tentando declarar outra função com o mesmo nome
+funcao minha_funcao() = 2

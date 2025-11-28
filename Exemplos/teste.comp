@@ -1,0 +1,12 @@
+/*
+  Este é um exemplo de programa
+  na nossa nova linguagem.
+*/
+
+// Define uma função para calcular a área de um triângulo
+funcao area_triangulo(base, altura) = (base * altura) / 2
+
+// Declara variáveis e usa a função
+b = 10
+h = 5
+area = area_triangulo(b, h)

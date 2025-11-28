@@ -1,0 +1,10 @@
+/*
+Propósito: Testar se o gerenciamento de escopo está funcionando corretamente. A variável x dentro da função teste não deve conflitar com a variável x global.
+*/
+
+x = 10 // Variável global
+
+funcao teste(x) = x * 2 // O 'x' aqui é o parâmetro, não a variável global
+
+y = teste(5) // y deve ser 10
+z = x      // z deve ser 10 (o valor da variável global)

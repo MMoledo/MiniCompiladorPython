@@ -1,0 +1,5 @@
+// Declara uma função que retorna um valor fixo
+funcao get_pi() = 3.14159
+
+// Usa a função em uma atribuição
+circunferencia_base = 2 * get_pi()
